@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-mergeDebugResources-28:/layout/song_row.xml",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/song_row.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-mergeDebugResources-28:/layout/activity_main.xml",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-mergeDebugResources-28:/layout/activity_settings.xml",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-mergeDebugResources-28:/layout/content_main.xml",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/content_main.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-mergeDebugResources-28:/layout/content_settings.xml",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/content_settings.xml"
+    }
+]

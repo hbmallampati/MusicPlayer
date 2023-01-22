@@ -1,0 +1,39 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="8dp">
+    <!-- Background attribute gives the whole layout the satisfying ripple
+    effect on selection -->
+
+
+    <!-- XXX Write the row layout, textSize 20sp -->
+    <TextView
+        android:id="@+id/songNameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/song_title"
+        android:textSize="@dimen/song_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/songDurationTv"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Song 1" />
+
+    <TextView
+        android:id="@+id/songDurationTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/song_time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/songNameTv"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="00:00" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/raw_dark_star_excerpt.mp3.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/raw/dark_star_excerpt.mp3"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/drawable_ic_baseline_skip_previous_24.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/drawable/ic_baseline_skip_previous_24.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/layout_content_settings.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/content_settings.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/layout_activity_settings.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/raw_base_after_base.mp3.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/raw/base_after_base.mp3"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/layout_content_main.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/content_main.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/layout_song_row.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/song_row.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/raw_rondo_alla_turca.mp3.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/raw/rondo_alla_turca.mp3"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/raw_debussy_la_fille_aux_cheveux_de_lin.mp3.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/raw/debussy_la_fille_aux_cheveux_de_lin.mp3"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/raw_big_digits_excerpt.mp3.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/raw/big_digits_excerpt.mp3"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/raw_whats_mine_excerpt.mp3.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/raw/whats_mine_excerpt.mp3"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/drawable_ic_baseline_skip_next_24.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/drawable/ic_baseline_skip_next_24.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/drawable_ic_play_arrow_black_24dp.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/drawable/ic_play_arrow_black_24dp.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/menu_player_menu.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/menu/player_menu.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/drawable_ic_pause_black_24dp.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/drawable/ic_pause_black_24dp.xml"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/raw_cant_let_go.mp3.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/raw/cant_let_go.mp3"
+    },
+    {
+        "merged": "musicplayer.cs371m.musicplayer.app-merged_res-29:/drawable_ic_shuffle_black_24dp.xml.flat",
+        "source": "musicplayer.cs371m.musicplayer.app-main-31:/drawable/ic_shuffle_black_24dp.xml"
+    }
+]

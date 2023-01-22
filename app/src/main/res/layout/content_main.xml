@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:layout_margin="12dp">
+
+    <!--Write me-->
+    <TextView
+        android:id="@+id/nowPlayingTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/now_playing"
+        app:layout_constraintEnd_toStartOf="@+id/currSongNameTv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="@dimen/default_margin"
+        android:textSize="@dimen/text_size_heading"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/currSongNameTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/nowPlayingTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nowPlayingTv"
+        tools:text="Song 1" />
+
+    <TextView
+        android:id="@+id/nextSongTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_up"
+        app:layout_constraintEnd_toStartOf="@+id/nextSongNameTv"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nowPlayingTv"
+        android:layout_margin="@dimen/default_margin"
+        android:textSize="@dimen/text_size_heading"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/nextSongNameTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/nextSongTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/nextSongTv"
+        tools:text="Song 2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/songsRV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nextSongTv"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        />
+
+    <Button
+        android:id="@+id/previousBt"
+        android:layout_width="@dimen/drawable_width_height"
+        android:layout_height="@dimen/drawable_width_height"
+        android:background="@drawable/ic_baseline_skip_previous_24"
+        app:layout_constraintBottom_toTopOf="@id/loopTv"
+        app:layout_constraintEnd_toStartOf="@id/playPauseBt"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"/>
+
+    <Button
+        android:id="@+id/playPauseBt"
+        android:layout_width="@dimen/drawable_width_height"
+        android:layout_height="@dimen/drawable_width_height"
+        android:background="@drawable/ic_pause_black_24dp"
+        app:layout_constraintEnd_toStartOf="@+id/nextBt"
+        app:layout_constraintStart_toEndOf="@+id/previousBt"
+        android:layout_marginStart="@dimen/space_between_buttons"
+        android:layout_marginEnd="@dimen/space_between_buttons"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        app:layout_constraintBottom_toTopOf="@id/loopTv"
+        />
+
+    <Button
+        android:id="@+id/nextBt"
+        android:layout_width="@dimen/drawable_width_height"
+        android:layout_height="@dimen/drawable_width_height"
+        android:background="@drawable/ic_baseline_skip_next_24"
+        app:layout_constraintBottom_toTopOf="@id/loopTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/playPauseBt"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginBottom="@dimen/default_margin"
+        />
+
+    <TextView
+        android:id="@+id/loopTv"
+        android:layout_width="@dimen/l_width"
+        android:layout_height="@dimen/drawable_width_height"
+        android:background="#FFFFFF"
+        android:text="@string/l"
+        android:textColor="#000000"
+        android:textSize="@dimen/l_text_size"
+        android:layout_margin="@dimen/default_margin"
+        app:layout_constraintBottom_toTopOf="@+id/lapsedTimeTv"
+        app:layout_constraintEnd_toStartOf="@+id/shuffleBt"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/shuffleBt"
+        android:layout_width="@dimen/drawable_width_height"
+        android:layout_height="@dimen/drawable_width_height"
+        android:background="@drawable/ic_shuffle_black_24dp"
+        app:layout_constraintBottom_toTopOf="@+id/remTimeTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/loopTv"
+        android:layout_margin="@dimen/default_margin"/>
+
+    <TextView
+        android:id="@+id/lapsedTimeTv"
+        android:layout_width="@dimen/drawable_width_height"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:layout_margin="@dimen/default_margin"
+        tools:text="00:00" />
+
+    <TextView
+        android:id="@+id/remTimeTv"
+        android:layout_width="@dimen/drawable_width_height"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:layout_margin="@dimen/default_margin"
+        tools:text="00:00" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/remTimeTv"
+        app:layout_constraintStart_toEndOf="@+id/lapsedTimeTv"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

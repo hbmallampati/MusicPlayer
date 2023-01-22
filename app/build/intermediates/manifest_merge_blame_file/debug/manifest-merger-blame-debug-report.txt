@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="musicplayer.cs371m.musicplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:6:22-76
+13
+14    <application
+14-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:8:5-30:19
+15        android:allowBackup="true"
+15-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:9:13-39
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] /Users/himabindu/.gradle/caches/transforms-3/319818de8066db9dee1015fa48896948/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@drawable/ic_play_arrow_black_24dp"
+19-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:10:13-62
+20        android:label="@string/app_name"
+20-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:11:13-45
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:12:13-58
+22        android:supportsRtl="true"
+22-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:13:13-39
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:14:13-44
+25        <activity
+25-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:15:9-24:20
+26            android:name="musicplayer.cs371m.musicplayer.MainActivity"
+26-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:16:17-45
+27            android:exported="true"
+27-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:19:17-40
+28            android:label="MusicPlayer"
+28-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:18:17-44
+29            android:screenOrientation="portrait" >
+29-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:17:17-53
+30            <intent-filter>
+30-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:20:13-23:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:21:17-68
+31-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:22:17-76
+33-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:22:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <!-- XXX Declare SettingsManager as an activity whose parent is MainActivity -->
+38        <activity android:name="musicplayer.cs371m.musicplayer.SettingsManager" >
+38-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:27:9-29:20
+38-->/Users/himabindu/Desktop/MSUT/AND_programming/AllProjects/MusicPlayerProj/MusicPlayer/app/src/main/AndroidManifest.xml:27:19-50
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/himabindu/.gradle/caches/transforms-3/8646fc24a05f0f3fb603801ddeb6af39/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/himabindu/.gradle/caches/transforms-3/8646fc24a05f0f3fb603801ddeb6af39/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+43            android:authorities="musicplayer.cs371m.musicplayer.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/himabindu/.gradle/caches/transforms-3/8646fc24a05f0f3fb603801ddeb6af39/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/himabindu/.gradle/caches/transforms-3/8646fc24a05f0f3fb603801ddeb6af39/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/himabindu/.gradle/caches/transforms-3/8646fc24a05f0f3fb603801ddeb6af39/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/himabindu/.gradle/caches/transforms-3/8646fc24a05f0f3fb603801ddeb6af39/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/himabindu/.gradle/caches/transforms-3/8646fc24a05f0f3fb603801ddeb6af39/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/himabindu/.gradle/caches/transforms-3/a12ed9220754cce2dddf3ed6d58bf3a3/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/himabindu/.gradle/caches/transforms-3/a12ed9220754cce2dddf3ed6d58bf3a3/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/himabindu/.gradle/caches/transforms-3/a12ed9220754cce2dddf3ed6d58bf3a3/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>
